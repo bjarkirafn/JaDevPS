@@ -1,17 +1,17 @@
-# jaDevPS
+# JaDevPS
 
 ---
 
-jaDevPS module.
+JaDevPS module.
 
 ## Instructions
 
-This module can be loaded as-is by importing jaDevPS.psd1. This is mainly intended for development purposes.
+This module can be loaded as-is by importing JaDevPS.psd1. This is mainly intended for development purposes.
 
 To speed up module load time and minimize the amount of files that needs to be signed, distributed and installed, this module contains a build script that will package up the module into three files:
 
-- jaDevPS.psd1
-- jaDevPS.psm1
+- JaDevPS.psd1
+- JaDevPS.psm1
 - license.txt
 
 To build the module, make sure you have the following pre-req modules:
@@ -27,7 +27,7 @@ Start the build by running the following command from the project root:
 Invoke-Build
 ```
 
-This will package all code into files located in .\bin\jaDevPS. That folder is now ready to be installed, copy to any path listed in you PSModulePath environment variable and you are good to go!
+This will package all code into files located in .\bin\JaDevPS. That folder is now ready to be installed, copy to any path listed in you PSModulePath environment variable and you are good to go!
 
 ---
 Maintained by Bjarki Rafn Gudmundsson
